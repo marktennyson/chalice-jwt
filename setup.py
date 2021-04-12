@@ -26,7 +26,7 @@ setup(
     zip_safe=False,
     platforms="any",
     install_requires=[ 
-        "PyJWT>=2.0,<3.0", # Needed for SameSite cookie functionality
+        "PyJWT>=2.0,<3.0", 
         "chalice>=1.0,<3.0",
     ],
     extras_require={},

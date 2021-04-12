@@ -6,7 +6,6 @@ class Authenticator:
         self.jwtSecret = jwtSecret
     def createToken(self, payload):
         if len(payload) > 2: return False
-        print (payload)
         self.jwtToken = encode(payload, self.jwtSecret, self.jwtAlgorithm)
         return self.jwtToken
     def isTokenValid(self, token):
