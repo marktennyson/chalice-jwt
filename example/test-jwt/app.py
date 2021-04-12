@@ -17,6 +17,6 @@ def token():
     return {'token': jwt.create_access_token(identity=Identity, expires_in=timedelta(seconds=60)),}
 
 @app.route('/get-identity')
-@jwt.jwt_required
+@jwt.its_required
 def login():
     return jwt.get_jwt_identity()

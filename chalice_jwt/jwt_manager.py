@@ -21,7 +21,7 @@ class JWTManager:
         try: return self.access_token.decode('utf-8')
         except: return self.access_token
     
-    def jwt_required(self, f):
+    def its_required(self, f):
         @wraps(f)
         def decorated_function(*args, **kwargs):
             argData = self.app.current_request.headers.get('authorization')
