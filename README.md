@@ -21,7 +21,7 @@ from datetime import timedelta
 
 app = Chalice(app_name='test-jwt')
 
-jwt = JWTManager(jwtSecret="secret", app=app)
+jwt = JWTManager(jwtSecret="top-secret-key", app=app)
 
 
 @app.route('/')
