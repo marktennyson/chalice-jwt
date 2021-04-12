@@ -39,19 +39,15 @@ def login():
     return jwt.get_jwt_identity()
 ```
 
-<!-- ## API Documentation
-
-[API documentation][docs] is hosted on github pages, and is generated from JSDoc; any contributions
-should include updated JSDoc. -->
-
 ## Installation
 `chalice-jwt` is available from `pypi`.
 #### install using pip
 ```shell
 pip install chalice-jwt
 ```
-#### install using setup.py
+#### install from source code
 ```shell
+git clone https://github.com/marktennyson/chalice-jwt && cd chalice-jwt
 python setup.py install --user
 ```
 
