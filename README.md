@@ -11,6 +11,7 @@
 [![Codecov](https://img.shields.io/codecov/c/github/github-tools/github.svg?maxAge=2592000)][codecov] -->
 
 `chalice-jwt` provides a simple interface for jwt based authentication with AWS Chalice microframework(serverless).
+source code available at: <a href="https://github.com/marktennyson/chalice-jwt">https://github.com/marktennyson/chalice-jwt</a>
 
 ## Usage
 
