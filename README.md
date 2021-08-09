@@ -4,11 +4,9 @@
 
 # Chalice-JWT
 
-<!-- [![Downloads per month](https://img.shields.io/npm/dm/github-api.svg?maxAge=2592000)][npm-package]
-[![Latest version](https://img.shields.io/npm/v/github-api.svg?maxAge=3600)][npm-package]
-[![Gitter](https://img.shields.io/gitter/room/github-tools/github.js.svg?maxAge=2592000)][gitter]
-[![Travis](https://img.shields.io/travis/github-tools/github.svg?maxAge=60)][travis-ci]
-[![Codecov](https://img.shields.io/codecov/c/github/github-tools/github.svg?maxAge=2592000)][codecov] -->
+# Downloads
+[![Downloads](https://pepy.tech/badge/chalice-jwt)](https://pepy.tech/project/chalice-jwt) [![Downloads](https://pepy.tech/badge/chalice-jwt/month)](https://pepy.tech/project/chalice-jwt/month) [![Downloads](https://pepy.tech/badge/chalice-jwt/week)](https://pepy.tech/project/chalice-jwt/week)
+<br>
 
 `chalice-jwt` provides a simple interface for jwt based authentication with AWS Chalice microframework(serverless).
 source code available at: <a href="https://github.com/marktennyson/chalice-jwt">https://github.com/marktennyson/chalice-jwt</a>
